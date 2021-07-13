@@ -1,0 +1,156 @@
+* {
+  width: 100%;
+  height: 100va;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  color: white;
+}
+
+.header {
+  display:flow-root;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #111;
+  z-index: 0;
+}
+
+.title {
+  margin: 20px 0 0 80px;
+  z-index: 2;
+  font-size: 3rem;
+}
+
+.title::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  margin-top: 30px;
+  z-index: -1;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 50%;
+  margin: 120px 0 0 0;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 6px solid #555;
+  border-radius: 0.3rem;
+  width: 350px;
+  margin: 0 0 40px 80px;
+}
+
+.avatar {
+  width: 300px;
+  border: 1px solid #555;
+  border-radius: 50%;
+}
+
+.userInfo h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.userInfo h3 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.follow {
+  display: flex;
+  margin: 20px auto 60px auto;
+}
+
+.follow svg {
+  margin-left: 40px;
+  width: 20px;
+  height: 18px;
+  fill: #fff;
+  stroke: #fff; 
+}
+
+.follow svg path {
+  width: 30px;
+  fill: #fff
+}
+
+.follow span {
+  width: 98px;
+  margin-left: 10px;
+}
+
+.repos {
+  margin: 0 0 0 60px;
+  width: 100%;
+  border: 6px solid #555;
+  border-radius: 0.3rem;
+}
+
+.legend {
+  font-size: 2rem;
+  width: 200px;
+  padding-left: 35px;
+  margin-left: 20px;
+  border: 3px solid #555;
+  border-radius: 0.3rem;
+}
+
+.repoContent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding: 20px;
+  width: 1000px;
+  list-style: none;
+}
+
+.repoContent li {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 0.2rem;
+}
+
+.repoContent li:hover {
+  transition: 0.3s ease-in;
+  background-color: #222;
+  border: 3px solid #999;
+  font-size: 1.2rem;
+  color: chartreuse;
+}
+
+
+.repoContent svg path {
+  fill: chartreuse;
+}
+
+.repoContent svg {
+  width: 50px;
+  margin-right: 5px;
+}
+
+.repoContent a {
+  text-decoration: none;
+  color: #aaa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  margin-top: 40px;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+}

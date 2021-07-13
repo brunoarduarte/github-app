@@ -1,0 +1,70 @@
+.animeLeft {
+  transform: translateX(-20px);
+  opacity: 0;
+  animation: animeLeft 1s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+.loading {
+  margin-top: 50px;
+  margin-left: 500px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 10px solid #ccc;
+  border-right-color: transparent;
+  animation: loading 1s infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animeInput {
+  border-radius: 1rem;
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  outline: none;
+  animation: animeInput 1s forwards;
+}
+
+@keyframes animeInput {
+  to {
+    width: 400px;
+  }
+}
+
+.animeCart {
+  animation: animeCart 0.5s forwards;
+}
+
+@keyframes animeCart {
+  10% {
+    transform: translateX(-5px);
+  }
+  30% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  80% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: initial;
+  }
+}
