@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/github-app/static/css/main.e601eaec.chunk.css",
+    "main.js": "/github-app/static/js/main.ee0fcaf3.chunk.js",
+    "main.js.map": "/github-app/static/js/main.ee0fcaf3.chunk.js.map",
+    "runtime-main.js": "/github-app/static/js/runtime-main.8bfd83ea.js",
+    "runtime-main.js.map": "/github-app/static/js/runtime-main.8bfd83ea.js.map",
+    "static/js/2.f581b7f8.chunk.js": "/github-app/static/js/2.f581b7f8.chunk.js",
+    "static/js/2.f581b7f8.chunk.js.map": "/github-app/static/js/2.f581b7f8.chunk.js.map",
+    "index.html": "/github-app/index.html",
+    "static/css/main.e601eaec.chunk.css.map": "/github-app/static/css/main.e601eaec.chunk.css.map",
+    "static/js/2.f581b7f8.chunk.js.LICENSE.txt": "/github-app/static/js/2.f581b7f8.chunk.js.LICENSE.txt",
+    "static/media/repos.e38918c3.svg": "/github-app/static/media/repos.e38918c3.svg",
+    "static/media/tentacles.3485bc3e.gif": "/github-app/static/media/tentacles.3485bc3e.gif",
+    "static/media/usuario.6d65a298.svg": "/github-app/static/media/usuario.6d65a298.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bfd83ea.js",
+    "static/js/2.f581b7f8.chunk.js",
+    "static/css/main.e601eaec.chunk.css",
+    "static/js/main.ee0fcaf3.chunk.js"
+  ]
+}
