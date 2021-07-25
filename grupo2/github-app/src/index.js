@@ -6,7 +6,7 @@ import App from './App';
 import store from './store';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/github-app">
     <Provider store={ store }>
       <App />
     </Provider>
