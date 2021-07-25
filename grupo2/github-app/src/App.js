@@ -10,7 +10,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="user" element={<UserPage />} />
+      <Route path="/github-app/user" element={<UserPage />} />
     </Routes>
   );
 }
