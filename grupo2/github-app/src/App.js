@@ -8,9 +8,9 @@ import UserPage from './component/UserPage';
 function App() {
 
   return (
-    <Routes>
+    <Routes basename="/github-app">
       <Route path="/" element={<Home />} />
-      <Route path="/github-app/user" element={<UserPage />} />
+      <Route path="/user" element={<UserPage />} />
     </Routes>
   );
 }
